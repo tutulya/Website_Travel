@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn" ><a href="#"></a>Contact</li>
+        </ul>
+        <i class="ri-menu-line"></i>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL INDONESIA</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>   
+
+    <!-- == Events == -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="sindoro.jpeg" height="400" width="150">
+                <h4>Sindoro View</h4>
+                <p>Terdapat beberapa jalur pendakian yaitu, via Banaran,via klidung,via Garung.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="suuumb.jpg" height="400" width="150">
+                <h4>Sumbing View</h4>
+                <p>Terdapat beberapa jalur pendakian yaitu, via Banaran,via klidung,via Garung.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>a strong desire to wander and explore the world.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>                
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="prau.jpg" alt="">
+                    <img src="suuumb.jpg" alt="" height="170">
+                    <img src="prau.jpg" alt="">
+                    <img src="suuumb.jpg" alt=""height160>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>website ini memiliki hak cipta oleh ALya Rimadhani dari kelas 11 PPLG1</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.ri-menu-line')
+        const navlinks = document.querySelector('.nav-links')
+        
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
